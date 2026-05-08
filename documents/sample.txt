@@ -1,0 +1,50 @@
+Artificial Intelligence (AI) is the simulation of human intelligence in machines.
+
+Machine learning is a subset of AI that enables systems to learn from data without being explicitly programmed.
+
+Deep learning uses neural networks with many layers to learn complex patterns from large amounts of data.
+
+Large Language Models (LLMs) like GPT-4 and Llama 3 can generate human-like text and answer questions.
+
+RAG (Retrieval-Augmented Generation) is a technique that combines search with LLMs for accurate, grounded answers. It retrieves relevant information from documents and uses it to generate responses.
+
+Vector databases like ChromaDB store text chunks as embeddings for fast semantic similarity search.
+
+LangChain is a framework for building applications with LLMs, including RAG systems.
+
+Streamlit is a Python library that makes it easy to create web apps for machine learning projects.
+
+Groq is a company that builds specialized hardware and software for ultra-fast AI inference.
+
+Groq's LPU (Language Processing Unit) is designed specifically for running LLMs at high speed.
+
+Groq provides an API that allows developers to access fast LLM inference. The API is available at console.groq.com.
+
+Groq offers several models through their API including Llama 3 (8B and 70B parameters), Mixtral 8x7B, and Gemma 2.
+
+To use Groq, you need to:
+1. Sign up for a free account at console.groq.com
+2. Generate an API key from the dashboard
+3. Install the groq Python package: pip install groq
+4. Use the API key in your code to call models like llama-3.1-8b-instant
+
+Groq is known for extremely fast inference speeds, often handling hundreds of tokens per second. This makes it ideal for real-time applications like chatbots.
+
+The Groq API is compatible with OpenAI's API format, making it easy to switch from OpenAI to Groq.
+
+Groq offers a free tier that allows developers to test and build applications without initial cost.
+
+Many developers use Groq for building RAG applications, chatbots, and content generation tools because of its speed and reasonable pricing.
+
+Some example use cases for Groq include:
+- Real-time customer support chatbots
+- Document question-answering systems
+- Code generation and assistance
+- Content summarization
+
+The current available models on Groq include:
+- llama-3.1-8b-instant (fastest, good for most tasks)
+- llama-3.3-70b-versatile (most capable, slower)
+- mixtral-8x7b-32768 (good for long context)
+- gemma2-9b-it (Google's model)
+
