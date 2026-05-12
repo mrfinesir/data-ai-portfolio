@@ -8,31 +8,8 @@ Groq is a company that builds specialized hardware for ultra-fast AI inference.
 
 Groq's LPU (Language Processing Unit) is designed specifically for running LLMs at high speed.
 
-Groq provides an API that allows developers to access fast LLM inference.
+Groq provides an API for fast LLM inference. Sign up at console.groq.com.
 
-The Groq API is available at console.groq.com where you can sign up for a free account.
-
-To use Groq, you need to:
-1. Sign up at console.groq.com
-2. Generate an API key from the dashboard
-3. Install the groq package using: pip install groq
-4. Use the API key in your code to call models
-
-Groq offers several models through their API including:
-- llama-3.1-8b-instant (fastest)
-- llama-3.3-70b-versatile (most capable)
-- mixtral-8x7b-32768 (long context)
-
-Example code to use Groq:
-from groq import Groq
-client = Groq(api_key="your-key")
-response = client.chat.completions.create(
-    model="llama-3.1-8b-instant",
-    messages=[{"role": "user", "content": "Hello"}]
-)
-
-Groq is known for extremely fast inference speeds, handling hundreds of tokens per second.
-
-ChromaDB is a vector database for storing embeddings.
+ChromaDB is a vector database for embeddings.
 
 Streamlit is a Python library for creating web apps quickly.
